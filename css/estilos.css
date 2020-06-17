@@ -30,15 +30,14 @@ header {
     height: 600px;
     background: #bc4e9c;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(197, 63%, 48%, 0.37), hsla(194, 57%, 44%, 0.274)), url(../img/portada.jpg);
+    background: -webkit-linear-gradient(to right, hsl(197, 63%, 48%), hsl(194, 100%, 51%)), url(../img/portada.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(204, 79%, 48%, 0.199), hsla(212, 84%, 58%, 0.13)), url(../img/portada.jpg);
+    background: linear-gradient(to right, hsl(184, 93%, 53%), hsl(212, 97%, 55%)), url(../img/portada.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
-
 nav{
     text-align: right;
     padding: 30px 50px 0 0;
